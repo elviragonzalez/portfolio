@@ -1,0 +1,332 @@
+/*
+Theme name: Portfolio
+Author: Elvira González Trillo
+*/
+
+
+@import url('https://fonts.googleapis.com/css2?family=Plaster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Plaster&family=Righteous&display=swap');
+
+
+a {
+    text-decoration: none;
+    color: inherit;
+    
+}
+
+/*HEADER*/
+.container-fluid{
+    background-color: rgb(0, 0, 0);
+
+}
+    .container-fluid #top{
+        color: #F5FF7F;
+        padding-left: 10%;
+        padding-right: 10%;
+        padding-top: 6%;
+    }
+
+    .container-fluid #top #title{
+        font-family: plaster;
+        font-size: 800%;
+        text-decoration: none;
+
+    }
+    
+
+.container-fluid #nav{
+    font-family: righteous;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 8%;
+}
+
+    .container-fluid #nav .nav .nav-item{
+        color: white;
+    }
+
+.container-fluid #middle{
+    font-family: righteous;
+    padding-bottom: 13%;
+    position: relative;
+}
+
+
+/*EMPIEZA HOMEPAGE*/
+
+
+    .container-fluid #middle .col-lg-4 #text{
+        position: relative;
+        display: flex;
+        padding-bottom: 30%;
+    }
+    .container-fluid #middle .col-lg-4 #button{
+    color: black;
+    background-color: white;
+    
+    }
+
+    .container-fluid #middle .col-sm-5{
+        position: relative;
+        display: flex;
+        align-self: flex-start;
+    }
+
+/*CATEGORY1-->MUSIC*/
+
+.container-fluid #middle{
+    display: flex;
+    font-family: righteous;
+    padding-bottom: 10%;
+    max-width: 82%;
+}
+
+.container-fluid #middle #authors .row{
+    display: row;
+}
+
+    .container-fluid #middle .col-8{
+        color: white;
+        padding-right: 10%;
+        
+    }
+    .container-fluid #middle .col-8 .col-4{
+        display: flex;
+    }
+
+
+    .container-fluid #middle .col-4{
+        align-self: end;
+    }
+    
+    .container-fluid #middle .col-4 .row #img1{
+        border: #F5FF7F;
+        
+    }
+    .container-fluid #middle .col-4 .row #description{
+        color: #F5FF7F;
+        text-align: right;
+        padding-top: 4%;
+    }
+
+.container-fluid #videos{
+    /*aqui quiero quitarle el margen o el padding*/
+   
+}
+
+.container-fluid #middle1{
+    display: flex;
+    font-family: righteous;
+    padding-top: 10%;
+    max-width: 82%;
+}
+
+
+    .container-fluid #middle1 .col-4 .row #img1{
+        border: #F5FF7F;
+    }
+    .container-fluid #middle1 .col-4 .row #description{
+        color: #F5FF7F;
+        text-align: left;
+        padding-top: 4%;
+        padding-bottom: 4%;
+    }
+
+
+    .container-fluid #middle1 .col-8{
+        color: white;
+        text-align: right;
+        padding-left: 10%;
+    }
+    .container-fluid #middle1 .col-8 .col-4{
+        display: flex;
+    }
+
+    .container-fluid #middle1 .col-8 #names{
+        text-align: right;
+    }
+
+
+/*SUBCATEGORY1-->PHOTOGRAPHY*/
+.container-fluid .text{
+    font-family: righteous;
+    color: white;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 5%;
+}
+
+
+.container-fluid .subtitle{
+    width: 30%; 
+    height: 50%;
+    background-color:#F5FF7F; 
+    font-family: righteous;
+
+}
+
+
+.container-fluid #gallery #date{
+    color: #F5FF7F;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    font-family: plaster;
+    font-size: 300%;
+    padding-left: 7%;
+}
+
+.container-fluid #gallery .columns{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 7%;
+    padding-right: 7%;
+}
+
+.container-fluid #gallery .columns_padding{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 7%;
+    padding-right: 7%;
+    padding-top: 7%;
+}
+
+.container-fluid #gallery #name{
+    text-align: right;
+    color: white;
+    font-family: righteous;
+    padding-right: 7%;
+    padding-top: 5%;
+    font-size: 120%;
+}
+
+.container-fluid #gallery #name_padding{
+    text-align: right;
+    color: white;
+    font-family: righteous;
+    padding-right: 7%;
+    padding-top: 5%;
+    font-size: 120%;
+    padding-bottom: 7%;
+}
+
+
+/*SUBCATEGORY2-->SHORT FILMS*/
+
+.container-fluid .text{
+    font-family: righteous;
+    color: white;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 5%;
+        }
+        
+        
+.container-fluid .subtitle{
+    width: 30%; 
+    height: 50%;
+    background-color:#F5FF7F; 
+    font-family: righteous;
+    
+        
+        }
+
+.container-fluid #gallery .row{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 7%;
+    padding-right: 7%;
+    padding-bottom: 7%;
+    
+}
+
+.container-fluid .p{
+    text-align: right;
+    padding-right: 13%;
+    color: white;
+    font-family: righteous;
+    padding-bottom: 7%;
+}
+
+
+
+/*CATEGORY3-->ART GALLERY*/
+
+.container-fluid #text{
+    color: white;
+    font-family: righteous;
+    padding-left: 10%;
+    padding-bottom: 5%;
+}
+
+.container-fluid .row{
+    display: flex;
+    padding-bottom: 10%;
+    
+    
+}
+
+.container-fluid .col-8{
+    padding-left: 10.5%;
+}
+
+.container-fluid .col-4{
+    width: 30%;
+    font-family: righteous;
+    color: white;
+    border: 1px solid white;
+    
+    
+}
+
+
+/*CATEGORY4-->WRITING*/
+
+#text{
+    color: white;
+    font-family: righteous;
+    padding-left: 10%;
+    padding-bottom: 5%;
+}
+
+.row-12{
+    padding-bottom: 10%;
+    padding-left: 10%;
+}
+
+
+
+/*FOOTER*/
+#footer{
+    background-color: #F5FF7F;
+    height: 30%;
+}
+
+    #footer #sentence{
+    font-family: righteous;
+    padding-top: 6%;
+    padding-left: 4%;
+    color: black;
+    border: none;
+    }
+
+    #footer #icons{
+    color: black;
+    border: none;
+    }
+
+    #footer #icons .col-2{
+        color: black;
+    }
+
+    .container-fluid #footer #down{
+        position: relative;
+        font-family: plaster;
+        font-size: 20vw;
+        color: black;
+        text-align: center;
+        padding-bottom: none;
+        
+    }
+
+
+    
