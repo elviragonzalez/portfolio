@@ -1,14 +1,9 @@
 <?php
-function style() {
-    wp_enqueue_style("bootstrap", "https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css");
-    wp_enqueue_style("bootstrap", "https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css");
-    wp_enqueue_style('icons', 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css');
-    wp_enqueue_style("theme-style", get_template_directory_uri() . "/style.css");
-    wp_enqueue_style("bootstrap", "https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js");
-}
+function style() {wp_enqueue_style("theme-style", get_template_directory_uri(). "/style.class");}
 add_action("wp_enqueue_scripts", "style");
 
-function portfolio_remove_gutenberg() {
+function portfolio_remove_gutenberg() 
+{
     remove_post_type_support("post", "editor");
     remove_post_type_support("page", "editor");
 }

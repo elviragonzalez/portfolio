@@ -1,38 +1,25 @@
 <?php wp_footer() ?>
+<footer>
+    </div>       
+    <div class="row" id="icons">
+        <!-- Spotify -->
+        <a href="https://open.spotify.com/artist/1n8wqphSTyW7nyyjEHh2Ln?si=Lx5ugvpLTl-yNHgC0qqmxg"><i class="fab fa-spotify"></i></a>
+        <!-- YouTube -->
+        <a href="https://www.youtube.com/@arible"><i class="fab fa-youtube"></i></a>
+        <!-- LinkedIn -->
+        <a href="https://www.linkedin.com/in/elvira-gonz%C3%A1lez-trillo-a60b912b5/"><i class="fab fa-linkedin-in"></i></a>
+        <!-- Instagram -->
+        <a href="https://www.instagram.com/_arible_/"><i class="fab fa-instagram"></i></a>
+        <!-- TikTok -->
+        <a href="https://www.tiktok.com/@.arible"><i class="fab fa-tiktok"></i></a>
+        
+    </div>
 
-<div class="container-fluid" id="footer">
-            <div class="row">
-                <div class="col-4" id="sentence" >sentence</div>
-                
 
-                <div class="col-4" id="icons">
-                        <div class="row" id="icons" >
-                            <div class="col-2">
-                                <!--spotify--> <i class="fa-brands fa-spotify" style="color: #0000"></i>
-                            </div>
-                            <div class="col-2">
-                                <!--youtube--> <i class="fa-brands fa-youtube" style="color: #0000"></i>
-                            </div>
-                            <div class="col-2">
-                                <!--email-->
-                            </div>
-                            <div class="col-2">
-                                <!--linkedin--> <i class="fab fa-linkedin-in" style="color: #0000" ></i>
-                            </div>
-                            <div class="col-2">
-                                <!--instagram--> <i class="fa-solid fa-envelope" style="color: #0000"></i>
-                            </div>
-                            <div class="col-2">
-                                <!--tiktok--> <i class="fa-brands fa-tiktok" style="color: #0000"></i>
-                            </div>
-                        </div>
-                    </div>
-                </div>
 
-                <div class="row" id="down">
-                    <div class="col-12">TITLE</div>
-                </div>
-            </div>
-        </div>
-    </body>
+
+            <h1 id="title_footer">ARIBLE</h1>
+       
+    </footer>
+</body>
 </html>
