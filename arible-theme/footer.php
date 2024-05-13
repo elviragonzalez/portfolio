@@ -1,4 +1,15 @@
+<?php wp_footer()?>
+
 <footer>      
+
+    <?php $footerLoop = new WP_Query(array(
+        "post_type" => "footer",
+        "posts_per_page" => -1
+    )); ?>
+
+    <?php if($footerLoop->have_posts()): ?>
+        <?php while($footerLoop->have_posts()): $footerLoop->the_post() ?>
+
     <?php 
         $spotify = get_field('spotify');
         $youtube = get_field('youtube');
@@ -22,4 +33,8 @@
     </div>
 
     <h1 id="title_footer"><?php echo esc_html($title_footer); ?></h1>
+
+    <?php endwhile; ?>
+    <?php endif; ?>
+    <?php wp_reset_postdata()?>
 </footer>

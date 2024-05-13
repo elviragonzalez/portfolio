@@ -44,6 +44,7 @@ body{
 }
 
 #video:hover{
+    transition: 0.3s;
     color: #F5FF7F;
     border: 2px solid #F5FF7F;
 }
@@ -56,6 +57,7 @@ body{
 }
 
 #cv:hover{
+    transition: 0.3s;
     color: #F5FF7F;
     border: 2px solid #F5FF7F;
 }
@@ -63,8 +65,11 @@ body{
 
 
 /*cards*/
-#projects{
-    padding-bottom: 15%;
+#turl_cards{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    display: inline;
 }
 
 #projects_category{
@@ -77,12 +82,37 @@ body{
     transition: 0.3s;
     width: 300px;
     border: 2px solid white;
+    margin-bottom: 10%;
   }
 
   #card:hover {
     background-color: #F5FF7F;
     border: 2px solid #F5FF7F;
-    color: black; /* que el color de texto cambie no funciona y no se pq */
+    color: black; /* color change on the text doesn't work here */
+  }
+
+  #url-cards-container {
+    display: flex;
+    flex-wrap: wrap; 
+    align-content: space-between;
+    
+}
+
+/*i cannot manage to get the cards evenly organized*/
+
+.url-card {
+    margin-inline-end: 1%;
+    text-decoration: none;
+    color: inherit;
+    
+}
+
+
+  #url_cards{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    
   }
 
   #project_title {
@@ -91,10 +121,12 @@ body{
     color: white;
     font-family: righteous;
     margin: 0;
-    
   }
 
-  
+    #project_title:hover {
+        color: black;  /*the text color changes, but not when the hover is in the whole card, only in the text*/
+    }
+
 
   #img {
     width: 100%;
@@ -157,6 +189,17 @@ footer{
         font-size: 0.8em;
     }
 
+    #url-cards-container{
+        display: flex;
+        justify-content: space-around;
+    }
+
+
+    #card{
+        width: 100%;
+        height: auto;
+    }
+
     #icons a{
         font-size: small;
     }
@@ -166,10 +209,34 @@ footer{
     #title_footer{
         font-size: 6em;
     }
+}
+    @media (max-width: 900px){
+    .url-card{
+        position: relative;
+        display: flex;
+        justify-content: space-around;
+    }
   }
   @media (max-width: 500px){
     #title_footer{
         font-size: 4em;
+    }
+  }
+
+  @media (max-width: 824px){
+    #project_title{
+        font-size: 0.8em;
+    }
+
+    #url-cards-container{
+        display: flex;
+        justify-content: space-around;
+    }
+
+
+    #card{
+        width: 100%;
+        height: auto;
     }
   }
 
